@@ -1,0 +1,189 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white);
+    color: var(--slate);
+}
+
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* ---------HEADER--------- */
+.webstudio-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo-part {
+    color: var(--navy-blue);
+}
+
+.site-navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.site-navigation:hover,
+.site-navigation:focus {
+    color: var(--ocean);
+}
+
+.addresses {
+    font-style: normal;
+}
+
+.contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--ocean);
+}
+
+
+
+/* ---------HERO--------- */
+.hero {
+    background: var(--navy-blue);
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-btn {
+    justify-content: flex-start;
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean);
+}
+
+
+
+/* ---------FEATURES--------- */
+.feature {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.feature-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* ---------OUR TEAM--------- */
+.our-team {
+    background-color: var(--cloud);
+}
+
+.member {
+    background-color: var(--white);
+}
+
+.member-name {
+    text-align: center;
+}
+
+.member-role {
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* ---------PORTFOLIO--------- */
+.offer-descr {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* ---------FOOTER--------- */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-logo-part {
+    color: var(--cloud);
+}
+
+.invocation {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
