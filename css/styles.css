@@ -54,6 +54,37 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*:::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 
 /* ---------HEADER--------- */
@@ -99,8 +130,7 @@ a {
 .contact:focus {
     color: var(--ocean);
 }
-
-
+/* ---------HEADER--------- */
 
 /* ---------HERO--------- */
 .hero {
@@ -127,8 +157,7 @@ a {
 .hero-btn:focus {
     background-color: var(--ocean);
 }
-
-
+/* ---------HERO--------- */
 
 /* ---------FEATURES--------- */
 .feature {
@@ -141,8 +170,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
+/* ---------FEATURES--------- */
 
 /* ---------OUR TEAM--------- */
 .our-team {
@@ -162,16 +190,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
+/* ---------OUR TEAM--------- */
 
 /* ---------PORTFOLIO--------- */
 .offer-descr {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
+/* ---------PORTFOLIO--------- */
 
 /* ---------FOOTER--------- */
 .footer {
@@ -187,3 +213,4 @@ a {
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
+/* ---------FOOTER--------- */
