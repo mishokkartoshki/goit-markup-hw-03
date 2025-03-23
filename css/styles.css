@@ -217,8 +217,16 @@ button {
 
 /* .features-container {} */
 
-.features-title {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .features-list {
@@ -297,7 +305,7 @@ button {
 
 .footer-logo {
     display: inline-block;
-    padding: 16px 0;
+    margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
