@@ -247,7 +247,9 @@ button {
 
 /* .team-container {} */
 
-/* .team-title {} */
+.team-title {
+    margin-bottom: 72px;
+}
 
 /* .team-list {} */
 
