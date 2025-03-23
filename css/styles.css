@@ -93,6 +93,19 @@ button {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* ---------GLOBAL--------- */
 /* ---------HEADER--------- */
 .header {
@@ -217,9 +230,7 @@ button {
 
 /* .features-container {} */
 
-.visually-hidden {
-    display: none;
-}
+/* .visually-hidden {} */
 
 .features-list {
     display: flex;
@@ -251,13 +262,22 @@ button {
     margin-bottom: 72px;
 }
 
-/* .team-list {} */
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-member {
+    width: calc((100%-72px)/4);
     background-color: var(--white);
 }
 
+.team-content-box {
+    padding: 32px 16px;
+}
+
 .team-member-name {
+    margin-bottom: 8px;
     text-align: center;
 }
 
