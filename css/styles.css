@@ -315,7 +315,9 @@ button {
     border-right: 1px solid #e7e9fc;
 }
 
-/* .portfolio-subtitle {} */
+.portfolio-subtitle {
+    margin-bottom: 8px;
+}
 
 .portfolio-text {
     line-height: 1.5;
