@@ -275,7 +275,7 @@ button {
 }
 
 .team-content-box {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-member-name {
@@ -294,7 +294,9 @@ button {
 
 /* .portfolio-container {} */
 
-/* .portfolio-title {} */
+.portfolio-title {
+    margin-bottom: 72px;
+}
 
 /* .portfolio-list {} */
 
