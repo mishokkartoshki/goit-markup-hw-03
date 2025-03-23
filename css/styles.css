@@ -78,20 +78,28 @@ img {
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+button {
+    cursor: pointer;
 }
 
 .section {
     padding: 120px 0;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* ---------HEADER--------- */
+/* .header {} */
+
 .header-container {
     display: flex;
 }
+
+/* .header-nav {} */
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -101,11 +109,13 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-}
+}    
 
-.logo-part {
+.header-logo-part {
     color: var(--navy-blue);
 }
+
+/* .header-nav-list {} */
 
 .header-nav-item {
     font-weight: 500;
@@ -119,6 +129,8 @@ img {
 .header-nav-item:focus {
     color: var(--ocean);
 }
+
+/* .header-addr {} */
 
 .header-addr-list {
     font-style: normal;
@@ -141,7 +153,9 @@ img {
     background: var(--navy-blue);
 }
 
-.hero-text {
+/* .hero-container {} */
+
+.hero-title {
     text-align: center;
 }
 
@@ -162,57 +176,85 @@ img {
     background-color: var(--ocean);
 }
 /* ---------HERO--------- */
-
 /* ---------FEATURES--------- */
-.feature {
+/* .features {} */
+
+/* .features-container {} */
+
+/* .features-title {} */
+
+/* .features-list {} */
+
+.features-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.feature-text {
+/* .features-subtitle {} */
+
+.features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* ---------FEATURES--------- */
-
 /* ---------OUR TEAM--------- */
-.our-team {
+.team {
     background-color: var(--cloud);
 }
 
-.member {
+/* .team-container {} */
+
+/* .team-title {} */
+
+/* .team-list {} */
+
+.team-member {
     background-color: var(--white);
 }
 
-.member-name {
+.team-member-name {
     text-align: center;
 }
 
-.member-role {
+.team-member-text {
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* ---------OUR TEAM--------- */
-
 /* ---------PORTFOLIO--------- */
-.offer-descr {
+/* .portfolio {} */
+
+/* .portfolio-container {} */
+
+/* .portfolio-title {} */
+
+/* .portfolio-list {} */
+
+/* .portfolio-item {} */
+
+/* .portfolio-subtitle {} */
+
+.portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* ---------PORTFOLIO--------- */
-
 /* ---------FOOTER--------- */
 .footer {
     background-color: var(--navy-blue);
 }
 
+/* .footer-container {} */
+
+/* .logo */
+
 .footer-logo-part {
     color: var(--cloud);
 }
 
-.invocation {
+.footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
